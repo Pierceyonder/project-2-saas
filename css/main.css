@@ -10,12 +10,40 @@ html {
 	ms-text-size-adjust: 100%;
 	webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	font-family: 'PT Serif', serif;
 }
 
 *, *::before, *::after {
 		box-sizing: inherit;
 }
 
+header {
+	background-color: gray;
+}
+
 header a {
 	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background-color: gray;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.button-style {
+border-radius: 1em;
+	background-color: black;
+	padding: 0.5em 1em;
+	font-size: 1.2rem;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
 }
