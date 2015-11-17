@@ -47,3 +47,7 @@ border-radius: 1em;
 	text-decoration: none;
 	display: inline-block;
 }
+
+.centerbutton {
+	text-align: center;
+}
