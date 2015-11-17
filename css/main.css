@@ -16,3 +16,6 @@ html {
 		box-sizing: inherit;
 }
 
+header a {
+	text-decoration: none;
+}
