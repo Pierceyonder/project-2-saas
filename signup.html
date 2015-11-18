@@ -18,7 +18,7 @@
 
 <header>
 <div class="grid">
-  <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
+  <div class="unit gutter xs-1-3 s-1-3 m-1-3 l-1-3">
      <img class="logo" src="http://placehold.it/50x50" alt="The SpeakEasy logo">
   </div>
 
@@ -41,45 +41,70 @@
 </header>
 
 <div class="gutter pad-t">
-	<h1>Registration</h2>
+	<h1>Registration</h1>
 </div>
 
+<div class="gutter">
 <h2>Create your account</h2>
-
-<div class="input-center">
-	<p><input type=""></p>
-
-	<p><input type=""></p>
-
-	<p><input type="email"></p>
-
-	<p><input type="password"></p>
-
-	<p><input type="password"></p>
 </div>
 
+<div class="gutter">
+<p><label  for="name"><input type="text" placeholder="First Name"></label><label for="lastname"><input type="text" placeholder="Last Name"></label></p>
+<p><label  for="aline1"><input type="text" placeholder="Address Line 1">
+<p><label  for="aline2"><input type="text" placeholder="Address Line 2">
+<p><label  for="pcode"><input type="text" placeholder="Postal Code">
+<p><label  for="email"><input type="text" placeholder="E-Mail">
+<p><label  for="emailconfirm"><input type="text" placeholder="Confirm E-Mail Address">
+</div>
+
+
+<div class="gutter">
 <h2>Choose your plan</h2>
+</div>
 
-2-month free trial
+<div class="gutter">
+  <legend>Plan type</legend>
+  <input type="radio" id="trial" name="plan">
+  <label for="trial">2-month free trial</label>
+  <input type="radio" id="mcard" name="plan">
+  <label for="mcard">Base level - $9.99/month</label>
+  <input type="radio" id="aexpress" name="plan">
+  <label for="aexpress">Advanced level - $14.99/month</label>
+  <input type="radio" id="aexpress" name="plan">
+  <label for="aexpress">Fluent level - $149.99/year</label>
+</div>
 
-Base level - $9.99/month
 
-Advanced level - $14.99/month
-
-Fluent level - $149.99/year
-
+<div class="gutter pad-t">
 <h2>Payment method</h2>
-VISA
-Mastercard
-American Express
+</div>
 
-Cardholder's Name
-Card Number
+<div class="gutter">
+  <legend>Card type</legend>
+  <input type="radio" id="VISA" name="cc">
+  <label for="VISA">VISA</label>
+  <input type="radio" id="mcard" name="cc">
+  <label for="mcard">MasterCard</label>
+  <input type="radio" id="aexpress" name="cc">
+  <label for="aexpress">American Express</label>
+</div>
 
-Expiration Date 	<p><input type="email"></p>
-Security Code 	<p><input type="email"></p>
 
-Submit
+<div class="gutter pad-t">
+<p><label  for="card" id="cardholder"><input type="text" placeholder="Cardholder's Name"></label></p>
+<p><label for="Security code" id="cardnumber"><input type="text" placeholder="Card Number"></label></p>
+</div>
+
+
+<div class="gutter">
+<p><label  for="email" id="expiry"><input type="text" placeholder="Exp."></label></p>
+<p><label for="Security code" id="securitycode"><input type="number" placeholder="Security code"></label></p>
+</div>
+
+
+<div class="centerbutton pad-t pad-b">
+  <a class="button-style" href="signup.html">Submit</a>
+</div>
 
 </body>
 </html>
